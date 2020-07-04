@@ -2,14 +2,17 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-    <title>이종섭 원페이지 이력서</title>
-    <link rel="stylesheet" href="css/default.min.css">
-    <link rel="stylesheet" href="css/style.css">
+        <title>이종섭 원페이지 이력서</title>
+        <!-- jQuery -->
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <!--  bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/default.min.css">
 </head>
 <body>
     <div id="oneIndex">
-        <a href="#oneIntro">홍길동 소개 바로가기</a>
-        <a href="#oneSkill">홍길동 스킬 바로가기</a>
     </div>
     <div id="wrap">
         <div id="oneIntro" class="cont_intro">
@@ -28,9 +31,8 @@
                             <h1>이종섭</h1>
                             <h3>남 | 2000년, 21세</h3>
                             <h2 class="job">Back End Developer</h2>
-                            <pre class="tel">휴대폰    |   010-4842-5707</pre>
-                            <pre class="tel">이메일    |   ljs001022@naver.com</pre>
-                            <pre class="tel">자격증    |   정보처리산업기사</pre>
+                            <pre class="tel">휴대폰    |   010-4842-5707       이메일      |   ljs001022@naver.com</pre>
+                            <pre class="tel">자격증    |   정보처리산업기사        포트폴리오   |   <a href="www.github.com/ljs001022">github.com/ljs001022</a></pre>
                         </div>
                     </div>                    
                 </div>
@@ -47,26 +49,20 @@
                         </li>
                     </ul>
                 </div>
-                <div class="area_ex">
-                    <h2><span class="ico_s icon_ico_edu"></span><span class="txt_s">인턴&대외활동</span></h2>
+                <div class="area_edu">
+                    <h2><span class="ico_s icon_ico_edu"></span><span class="txt_s">인턴&교육활동</span></h2>
                     <ul>
                         <li>
-                            <span class="txt_date" style="letter-spacing: -1px;">2017.03 ~ 2019.03</span>
-                            <span class="txt_ex">미소테크</span>              
-                            <span class="txt_sub">학습근로자</span>
+                            <span class="txt_date" style="letter-spacing: -1px;">2017.03 ~ 2019.02</span>
+                            <span class="txt_info">미소테크 <a class="txt_sub">학습근로자</a></span>
                         </li>
                         <li>
-                            <span class="txt_date" style="letter-spacing: -1px;"></span>
-                            <span class="text_area">
-                                정확히는 학습근로자 신분으로 일했으며, 데이터베이스 키워드 추출을 포함한 사무보조 업무를 했습니다.
-그리고 같이 입사한 동기들과 스터디 형식으로 주간보고관리시스템을 제작하는 프로젝트를 5개월간 진행했습니다.
-프로젝트는 JAVA Spring을 사용했으며, 회사에서 제공해준 라이브러리를 이용하여 개발 했습니다.
+                            <span class="txt_date" style="letter-spacing: -1px;">2017.03 ~ 2019.02</span>
+                            <span class="txt_info">
+                                SW개발_L3_ver2.0 <a class="txt_sub">고용노동부</a>
                             </span>
                         </li>
                     </ul>
-                </div>
-                <div class="area_ex">
-                    <h2><span class="ico_s icon_ico_edu"></span><span class="txt_s">교육활동</span></h2>
                 </div>
         </div>
         <div id="oneSkill" class="cont_skill">
@@ -76,10 +72,10 @@
                     <div class="box_proficiency">
                         <div class="inner_list">
                             <ul>
-                                <li>적응력 <span class="ico_grph"></span></li>
+                                <li>도전정신<span class="ico_grph"></span></li>
                                 <li>열정 <span class="ico_grph"></span></li>
-                                <li>도전정신 <span class="ico_grph"></span></li>
-                                <li>리더쉽 <span class="ico_grph"></span></li>
+                                <li>끈기 <span class="ico_grph"></span></li>
+                                <li>적응력 <span class="ico_grph"></span></li>
                             </ul>
                         </div>
                         <div class="inner_proficiency">
@@ -101,14 +97,14 @@
                         </div>
                         <div class="inner_technical">
                             <ul>
-                                <li><strong class="tit_technical">html</strong><div class="box_grph"><span  class="ico_grph emph" style="width:85%"></span></div></li>
-                                <li><strong class="tit_technical">css</strong><div class="box_grph"><span class="ico_grph emph" style="width:85%"></span></div></li>
-                                <li><strong class="tit_technical">javascript</strong><div class="box_grph"><span class="ico_grph emph" style="width:70%"></span></div></li>
-                                <li><strong class="tit_technical">build	tool</strong><div class="box_grph"><span class="ico_grph emph" style="width:70%"></span></div></li>
-                                <li><strong class="tit_technical">git</strong><div class="box_grph"><span class="ico_grph emph" style="width:65%"></span></div></li>
-                                <li><strong class="tit_technical">communication</strong><div class="box_grph"><span class="ico_grph emph" style="width:90%"></span></div></li>
-                                <li><strong class="tit_technical">sociability</strong><div class="box_grph"><span class="ico_grph emph" style="width:75%"></span></div></li>
-                                <li><strong class="tit_technical">problem solving</strong><div class="box_grph"><span class="ico_grph emph" style="width:80%"></span></div></li>
+                                <li><strong class="tit_technical">html & css</strong><div class="box_grph"><span  class="ico_grph emph" style="width:60%"></span></div></li>
+                                <li><strong class="tit_technical">javascript</strong><div class="box_grph"><span class="ico_grph emph" style="width:50%"></span></div></li>
+                                <li><strong class="tit_technical">java</strong><div class="box_grph"><span class="ico_grph emph" style="width:100%"></span></div></li>
+                                <li><strong class="tit_technical">Unity2D	</strong><div class="box_grph"><span class="ico_grph emph" style="width:40%"></span></div></li>
+                                <li><strong class="tit_technical">git</strong><div class="box_grph"><span class="ico_grph emph" style="width:60%"></span></div></li>
+                                <li><strong class="tit_technical">communication</strong><div class="box_grph"><span class="ico_grph emph" style="width:85%"></span></div></li>
+                                <li><strong class="tit_technical">sociability</strong><div class="box_grph"><span class="ico_grph emph" style="width:70%"></span></div></li>
+                                <li><strong class="tit_technical">problem solving</strong><div class="box_grph"><span class="ico_grph emph" style="width:95%"></span></div></li>
                             </ul>
                         </div>
                     </div>

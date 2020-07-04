@@ -128,7 +128,7 @@ address,caption,cite,code,dfn,em,var{
 }
 .inner_intro{
     width:100%;
-    padding: 5% 0;
+    padding: 2% 0 0 0;
     margin:0 auto;
 }
 .area_profile:after{
@@ -139,13 +139,16 @@ address,caption,cite,code,dfn,em,var{
 .area_profile{
     width: 100%;
     margin: 0 auto;
-    background-color: whitesmoke;
+    background-color:#eeedeb;
 }
 .area_profile .sub_title{
+    padding: 5%;
     text-align: center;
     width: 100%;
-    font-size: 30px;
     font-family: 'Nanum Pen Script', cursive;
+}
+.sub_title h1{
+    font-size: 60px;
 }
 .area_profile .box_info{
     width: 85%;
@@ -198,12 +201,12 @@ h2 .txt_s{
     font-size:27px
 }
 .area_edu{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 1% 10%;
     font-size: 15px;
     font-family: 'Inconsolata', monospace;
-    background-color: whitesmoke;
+    background-color:#eeedeb;
 }
 .area_ex{
     width: 80%;
@@ -211,7 +214,7 @@ h2 .txt_s{
     padding: 1% 10%;
     font-size: 15px;
     font-family: 'Inconsolata', monospace;
-    background-color: whitesmoke;
+    background-color:#eeedeb;
 }
 .txt_ex{
     font-size:25px;
@@ -229,9 +232,12 @@ h2 .txt_s{
 .txt_info{
     font-size:25px;
 }
+.txt_info p{
+    font-size: 15px;
+}
 .txt_sub{
     color:#8d8683;
-    font-size:25px
+    font-size:20px
 }
 .txt_sub:before{
     display:inline-block;
@@ -261,7 +267,7 @@ h2 .txt_s{
     background-repeat:no-repeat;
     background-size:20px auto
 }
-.area_portfolio li{
+/*.area_portfolio li{
     background-position:280px -7px;
     padding:10px 0 10px 175px
 }
@@ -280,15 +286,18 @@ h2 .txt_s{
 .area_portfolio .txt_s{
     font-size:25px;
     vertical-align:bottom
-}
+}*/
 .cont_skill{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 0%;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
     background-color:#eeedeb;
-    padding:100px;
-    margin-top:50px
 }
 .inner_skill{
     position:relative;
-    width:1024px;
+    width:90%;
     margin:0 auto
 }
 .inner_skill:after{
@@ -309,9 +318,10 @@ h2 .txt_s{
     margin-top:20px
 }
 .area_proficiency .inner_list li{
-    padding:10px 0;
+    padding:2% 0;
     text-align:right;
-    font-size:20px
+    font-size:30px;
+    font-family: 'Nanum Pen Script', cursive;
 }
 .area_proficiency .inner_list li .ico_grph{
     display:inline-block;
@@ -462,15 +472,18 @@ h2 .txt_s{
     transform:rotate(302deg)
 }
 footer{
-    position:absolute;
     bottom:0;
     left:0;
-    width:100%;
-    text-align:center
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Inconsolata', monospace;
+    background-color:#eeedeb;
 }
 footer .inner_footer{
-    width:1024px;
+    width:100%;
     margin:0 auto;
     text-align:center;
-    font-size:15px
+    font-size: 20px;
 }
