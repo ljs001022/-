@@ -1,5 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Nanum+Pen+Script&family=Permanent+Marker&display=swap');
+html{
+}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{
     margin:0;
     padding:0
@@ -119,7 +121,7 @@ address,caption,cite,code,dfn,em,var{
     height:45px
 }
 #wrap{
-    width:60%;
+    width:80%;
     margin:0 auto;
     /*background-color: whitesmoke;
     border-style: double;
@@ -148,7 +150,7 @@ address,caption,cite,code,dfn,em,var{
     font-family: 'Nanum Pen Script', cursive;
 }
 .sub_title h1{
-    font-size: 60px;
+    font-size: 5vw;
 }
 .area_profile .box_info{
     width: 85%;
@@ -168,17 +170,17 @@ address,caption,cite,code,dfn,em,var{
     padding: 2%;
 }
 .box_info .my_info h1{
-    font-size: 35px;
+    font-size: 4vw;
     float: left;
     margin-right: 5%;
 }
 .box_info .my_info h3{
-    padding-top: 3.5%;
-    font-size: 15px;
+    padding-top: 4.5%;
+    font-size: 1.5vw;
     float: left;
 }
 .box_info .my_info .job{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: 'Inconsolata', monospace;
     text-align: center;
     margin-top: 2%;
@@ -187,57 +189,48 @@ address,caption,cite,code,dfn,em,var{
     clear: both;
 }
 .box_info .my_info .tel{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: 'Nanum Pen Script', cursive;
     text-align: center;
     float: left;
     clear: both;
 }
 h2{
-    margin-bottom:10px
+    margin-bottom:10px;
 }
 h2 .txt_s{
     color:#de585a;
-    font-size:27px
+    font-size:2.3vw;
 }
 .area_edu{
     width: 100%;
     margin: 0 auto;
     padding: 1% 10%;
-    font-size: 15px;
     font-family: 'Inconsolata', monospace;
     background-color:#eeedeb;
 }
-.area_ex{
-    width: 80%;
-    margin: 0 auto;
-    padding: 1% 10%;
-    font-size: 15px;
+.area_edu .txt_a1{
+    font-size: 2vw;
     font-family: 'Inconsolata', monospace;
-    background-color:#eeedeb;
 }
-.txt_ex{
-    font-size:25px;
+.area_edu .txt_a2{
+    font-size: 1.5vw;
+    font-family: 'Inconsolata', monospace;
 }
 .txt_date{
     float: left;
-    width: 220px;
-    font-size:25px;
-    margin-right:100px;
+    font-size:2.5vw;
 }
 .txt_date:after{
     display:inline-block;
     content:''
 }
 .txt_info{
-    font-size:25px;
-}
-.txt_info p{
-    font-size: 15px;
+    font-size:2vw;
 }
 .txt_sub{
     color:#8d8683;
-    font-size:20px
+    font-size:1.5vw;
 }
 .txt_sub:before{
     display:inline-block;
@@ -245,27 +238,6 @@ h2 .txt_s{
     margin:0 10px;
     color:#8d8683;
     font-size:25px
-}
-.area_edu li,.area_career li,.area_portfolio li{
-    padding:10px 0 10px 50px;
-    background-image:url("../img/bg_list_middle.png");
-    background-position:280px -9px;
-    background-repeat:no-repeat;
-    background-size:30px auto
-}
-.area_edu li:first-child,.area_career li:first-child,.area_portfolio li:first-child{
-    background-image:url("../img/bg_list_first.png");
-    background-position:280px 11px
-}
-.area_edu li:last-child,.area_career li:last-child,.area_portfolio li:last-child{
-    background-image:url("../img/bg_list_last.png");
-    background-position:280px -34px
-}
-.area_ex li{
-    padding:10px 0 10px 50px;
-    background-position:280px -9px;
-    background-repeat:no-repeat;
-    background-size:20px auto
 }
 /*.area_portfolio li{
     background-position:280px -7px;
@@ -297,7 +269,7 @@ h2 .txt_s{
 }
 .inner_skill{
     position:relative;
-    width:90%;
+    width:80%;
     margin:0 auto
 }
 .inner_skill:after{
@@ -307,28 +279,36 @@ h2 .txt_s{
 }
 .inner_skill .area_proficiency{
     float:left;
-    width:620px
+    width:30%;
+    text-align: left;
 }
-.inner_skill .area_proficiency .box_proficiency{
+/*.inner_skill .area_proficiency .box_proficiency{
     height:250px
-}
+}*/
 .inner_skill .area_proficiency .inner_list{
     float:left;
-    width:200px;
-    margin-top:20px
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
 }
 .area_proficiency .inner_list li{
     padding:2% 0;
-    text-align:right;
-    font-size:30px;
+    float: left;
+    width: 25%;
+    text-align:center;
+    font-size:2vw;
     font-family: 'Nanum Pen Script', cursive;
+}
+.spc{
+    font-size: 2vw;
 }
 .area_proficiency .inner_list li .ico_grph{
     display:inline-block;
-    width:12px;
-    height:10px;
+    width:15px;
+    height:15px;
     border-radius:50%;
-    margin-left:20px
+    margin-left:10%;
 }
 .area_proficiency .inner_list li:nth-child(1) .ico_grph{
     background-color:#de595a
@@ -343,19 +323,18 @@ h2 .txt_s{
     background-color:#4d4d4c
 }
 .area_proficiency .inner_proficiency{
-    float:right
 }
 .inner_skill .area_technical{
     float:right;
-    width:400px
+    width:65%;
 }
 .inner_skill .area_technical h2{
-    padding-left:150px
+    
 }
 .inner_skill .area_technical .list_standard{
-    padding-left:150px;
-    height:10px;
-    margin-bottom:15px
+    height:1px;
+    float: right;
+    width: 60%;
 }
 .area_technical .list_standard div{
     float:left;
@@ -364,7 +343,8 @@ h2 .txt_s{
     font-size:0;
     width:25%;
     height:10px;
-    box-sizing:border-box
+    margin-bottom: 5%;
+    box-sizing:border-box;
 }
 .area_technical .list_standard div:first-child{
     border-left:2px solid #8d8683
@@ -376,19 +356,20 @@ h2 .txt_s{
 }
 .area_technical .inner_technical ul li .tit_technical{
     float:left;
-    min-width:150px;
-    font-size:18px
+    min-width:40%;
+    font-size:1.5vw;
+    margin-top: 3%;
 }
 .area_technical .inner_technical ul li .box_grph{
     float:left;
-    width:250px;
-    margin-top:10px
+    width:60%;
+    margin-top:4.5%;
 }
 .area_technical .inner_technical ul li .ico_grph{
     display:block;
-    height:10px;
+    height:1vw;
     background-color:#8a8b8a;
-    border-radius:5px
+    border-radius:1vw;
 }
 .area_technical .inner_technical ul li .ico_grph.emph{
     background-color:#de595a
@@ -397,9 +378,9 @@ h2 .txt_s{
     position:absolute;
     width:100px;
     height:200px;
+    left: 15%;
+    margin-top: 10%;
     overflow:hidden;
-    top:80px;
-    left:400px;
     -webkit-transform-origin:left center;
     transform-origin:left center
 }
@@ -476,7 +457,7 @@ footer{
     left:0;
     width: 100%;
     margin: 0 auto;
-    padding-top: 2%;
+    padding-top: 10%;
     padding-bottom: 1%;
     font-family: 'Inconsolata', monospace;
     background-color:#eeedeb;
